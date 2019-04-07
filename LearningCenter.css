@@ -1,0 +1,57 @@
+.IntroBlock
+{
+  margin: 0px 0px 10px 80px;
+  max-width:600px;
+  width:100%;
+}
+
+@media (max-width: 705px)
+{
+ 	.IntroBlock{
+    	margin: 0px;
+  	}
+}
+
+.LearningCenterIntro
+{
+  margin-left: 10px;
+}
+
+a.SectionIndented
+{
+  font-weight: bold; 
+}
+
+.Box237Right 
+{
+ float:left;
+ margin-right:12px;
+ margin-top:10px;
+ margin-bottom:10px;
+ max-width:237px;
+ width: 100%;
+ background-color:black;
+}
+
+.Box237Right p
+{
+ color:white;
+ margin-left:10px;
+}
+
+
+.Box237
+{
+ float:left;
+ max-width:237px;
+ margin-top:10px;
+ margin-bottom:10px;
+ width: 100%;
+ background-color:black; 
+}
+
+.Box237 p
+{
+ color:white;
+ margin-left:10px;
+}
