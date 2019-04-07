@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "../../../SchemaGenerator/Schema/EdityProject.json",
+  "vars": {
+    "siteTitle": "Anomalous Medical"
+  },
+  "compilers": [
+    {
+      "type": "Html",
+      "extension": ".html"
+    }
+  ]
+}

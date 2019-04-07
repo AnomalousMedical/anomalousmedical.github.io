@@ -1,0 +1,47 @@
+.svg-icon
+{
+    width:35px;
+}
+  
+  .device
+  {
+    font-family: times;
+    font-size:50px;
+    color: gray;
+  }
+  
+  .jumbotron
+  {
+   
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color:#336699;
+    padding:0px;
+    
+  }
+  
+  
+  .outerContainer
+  {
+    border-radius: 50%;
+    display: table;
+    height: 175px;
+    overflow: hidden;
+    width: 175px;
+    background-color: #333333;
+  }
+  
+  .innerContainer
+  {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration:none;
+  }
+  
+  .carousel-indicators
+  {
+   
+  }
