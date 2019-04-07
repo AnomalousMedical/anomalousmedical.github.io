@@ -1,4 +1,0 @@
-﻿{
-  "$schema": "../../../../SchemaGenerator/Schema/PageDefinition.json",
-  "linkedContent": [ "tsBinProd", "bootstrap", "layout", "hr-run" ]
-}

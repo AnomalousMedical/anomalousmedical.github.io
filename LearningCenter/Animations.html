@@ -1,24 +1,62 @@
-<div class="container">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Creating Animations | Anomalous Medical</title>
+    <link rel="shortcut icon" href="/Images/icons/favico.ico" type="image/x-icon">
+    <link rel="icon" href="/Images/icons/favico.ico" type="image/ico">
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap-custom.css?linkver=20190407064205" type="text/css">
+<link rel="stylesheet" href="/lib/sidebar/css/simple-sidebar.css?linkver=20190407064205" type="text/css">
+<link rel="stylesheet" href="/lib/sidebar/css/sidemenu.css?linkver=20190407064205" type="text/css">
+<link rel="stylesheet" href="/lib/edity/css/layout.css?linkver=20190407064205" type="text/css">
+<link rel="stylesheet" href="/edity/layouts/default.css?linkver=20190407064205" type="text/css">
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="/">
+                    <img alt="Anomalous Medical" src="/Files/AnomLogo.png">
+                </a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="/LearningCenter">Learning Center</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
 	<h1>Creating Animations</h1>
 	<p>This page shows how to use the Timeline Editor to create animations to go with a slide.</p>
 	<div class="row">
 		<p class="col-md-6">This is the main timeline view where animations are created. When editing a slide in the authoring tools click the timeline editor button to create an animation for that slide.
-			<br />
-			<br /><b>Quick Tip:</b> Save Often and keep timelines short. We recommend keeping timelines to 10 seconds or less for each slide.</p><img alt="This screenshot shows the Animation Timeline interface" class="col-md-6" src="/Files/LearningCenter/Animations/AnimationTimeline_Small.png" /></div>
-	<hr />
+			<br>
+			<br><b>Quick Tip:</b> Save Often and keep timelines short. We recommend keeping timelines to 10 seconds or less for each slide.</p><img alt="This screenshot shows the Animation Timeline interface" class="col-md-6" src="/Files/LearningCenter/Animations/AnimationTimeline_Small.png"></div>
+	<hr>
 	<div class="row">
 		<div class="col-md-6">
 			<h2>Timeline Ruler</h2>
 			<p>The timeline ruler is segmented into seconds. You can click on a time to move the timeline indicator to that time. Please note that if your animation contains simulation aspects it might not play the same way if you start it halfway through as it would at the beginning since the simulation might not be in the same state. However, playing an animation from the start should work consistently.</p></div>
-		<div class="col-md-6"><img alt="This screenshot shows the timeline ruler on the animation timeline." class="img-responsive" src="/Files/LearningCenter/Animations/TimelineRuler_Small.png" /></div></div>
-	<hr />
+		<div class="col-md-6"><img alt="This screenshot shows the timeline ruler on the animation timeline." class="img-responsive" src="/Files/LearningCenter/Animations/TimelineRuler_Small.png"></div></div>
+	<hr>
 	<div class="row">
 		<div class="col-md-6">
 			<h2>Timeline Indicator</h2>
 			<p>The timeline indicator is the horizontal bar on the animation timeline.</p>
 			<p>To move the timeline indicator hover over it with the mouse cursor until the double arrow mouse cursor appears. Click the left mouse button and hold it to drag the timeline indicator wherever you want to on the timeline. You can also left or right click anywhere on the Timeline ruler to move the timeline indicator there.</p></div>
-		<div class="col-md-6"><img alt="This screenshot shows the timeline indicator on the animation timeline." class="img-responsive" src="/Files/LearningCenter/Animations/TimelineIndicator_Small.png" /></div></div>
-	<hr />
+		<div class="col-md-6"><img alt="This screenshot shows the timeline indicator on the animation timeline." class="img-responsive" src="/Files/LearningCenter/Animations/TimelineIndicator_Small.png"></div></div>
+	<hr>
 	<div class="row">
 		<div class="col-md-6">
 			<h2>Timeline Controller</h2>
@@ -26,32 +64,46 @@
 			<p>Left Arrow - Click the left arrow to bring the timeline indicator back to the beggining.</p>
 			<p>Right Arrow - Click on the right arrow to move the timeline indicator forward ten seconds.</p>
 			<p>Play - Click on the play butto to play the timeline from the position of the timeline indicator</p></div>
-		<div class="col-md-6"><img alt="This screenshot shows the timeline controller." class="img-responsive" src="/Files/LearningCenter/Animations/TimelineController_Small.png" /></div></div>
-	<hr />
+		<div class="col-md-6"><img alt="This screenshot shows the timeline controller." class="img-responsive" src="/Files/LearningCenter/Animations/TimelineController_Small.png"></div></div>
+	<hr>
 	<div class="row">
 		<div class="col-md-6">
 			<h2>Timeline Actions</h2>
 			<p>There are currently 10 actions available in the animation timeline editor: change medical state, highlight teeth, change layers, move camera, play sequence, muscle position, show image, show text, play sound, and show prop. Each one of these changes a particular aspect of the scene at the time it is activated.</p></div>
-		<div class="col-md-6"><a alt="" class="thickbox" href="/Files/LearningCenter/Animations/TimelineActions_Large.png" title="This is a screenshot showing the timeline actions."><img alt="This screenshot shows the timeline actions." class="Shadow, Screenshot" src="/Files/LearningCenter/Animations/TimelineActions_Small.png" /></a></div></div>
-	<hr />
+		<div class="col-md-6"><a alt="" class="thickbox" href="/Files/LearningCenter/Animations/TimelineActions_Large.png" title="This is a screenshot showing the timeline actions."><img alt="This screenshot shows the timeline actions." class="Shadow, Screenshot" src="/Files/LearningCenter/Animations/TimelineActions_Small.png"></a></div></div>
+	<hr>
 	<div class="row">
 		<div class="col-md-6">
 			<h2>Adding Actions</h2>
 			<p>Click on the plus sign symbol next to the action to add it to the timeline. The plus sign will turn blue when the mouse cursor hovers above it. Actions are added to wherever the timeline indicator is positioned on the timeline. Move the timeline indicator to where you want to place an action.</p></div>
-		<div class="col-md-6"><img alt="This screenshot shows the timeline actions." class="Shadow, Screenshot" src="/Files/LearningCenter/Animations/AddingActions_Small.png" /></div></div>
-	<hr />
+		<div class="col-md-6"><img alt="This screenshot shows the timeline actions." class="Shadow, Screenshot" src="/Files/LearningCenter/Animations/AddingActions_Small.png"></div></div>
+	<hr>
 	<div class="row">
 		<div class="col-md-6">
 			<h2>Moving Actions</h2>
 			<p>Move already placed actions by left clicking and holding on them and then dragging them to where you want them on the timeline.</p></div>
-		<div class="col-md-6"><img alt="This screenshot shows the timeline actions." class="Shadow, Screenshot" src="/Files/LearningCenter/Animations/MovingActions_Small.png" /></div></div>
-	<hr />
+		<div class="col-md-6"><img alt="This screenshot shows the timeline actions." class="Shadow, Screenshot" src="/Files/LearningCenter/Animations/MovingActions_Small.png"></div></div>
+	<hr>
 	<div class="row">
 		<div class="col-md-6">
 			<h2>Capture Action</h2>
 			<p>Many actions will have a capture button when they are highlighted. This will grab the current scene state for whatever the currently selected action is. The state will also be captured when you add an action, but you can use this button to update it.</p></div>
-		<div class="col-md-6"><img alt="This screenshot shows the timeline actions." class="Shadow, Screenshot" src="/Files/LearningCenter/Animations/Capture_Small.png" /></div></div>
+		<div class="col-md-6"><img alt="This screenshot shows the timeline actions." class="Shadow, Screenshot" src="/Files/LearningCenter/Animations/Capture_Small.png"></div></div>
 	<nav>
 		<ul class="pager">
 			<li class="previous"><a href="/LearningCenter/AuthoringTools"><span aria-hidden="true">&larr;</span>Authoring Tools</a></li>
 		</ul></nav></div>
+
+    <div class="container">
+        <hr>
+        Copyright 2019 Threax Software, LLC
+    </div>
+    <script type="text/javascript" src="/lib/polyfill.js?linkver=20190407064205"></script>
+<script type="text/javascript" src="/lib/tslib.js?linkver=20190407064205"></script>
+<script type="text/javascript" src="/lib/jquery/dist/jquery.min.js?linkver=20190407064205"></script>
+<script type="text/javascript" src="/lib/bootstrap/dist/js/bootstrap.min.js?linkver=20190407064205"></script>
+<script type="text/javascript" src="/lib/tsbin.prod.js?linkver=20190407064205"></script>
+<script type="text/javascript" src="/lib/hr-run.js?linkver=20190407064205"></script>
+
+</body>
+</html>
