@@ -2,13 +2,16 @@
 {
     width:35px;
 }
-  
-  .device
-  {
+
+.anom-jumbo-text{
+    color: white !important;
+}
+
+.device {
     font-family: times;
-    font-size:50px;
+    font-size: 50px;
     color: gray;
-  }
+}
   
   .jumbotron
   {
