@@ -3,6 +3,7 @@
   "vars": {
     "siteTitle": "Anomalous Medical"
   },
+  "additionalContent": [ "Files" ],
   "compilers": [
     {
       "type": "Html",
