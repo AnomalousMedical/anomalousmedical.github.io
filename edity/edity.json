@@ -18,6 +18,14 @@
       }
     }
   ],
+  "postBuildTasks": [
+    {
+      "name": "AddGithubCname",
+      "settings": {
+        "host": "www.anomalousmedical.com"
+      }
+    }
+  ],
   "postPublishTasks": [
     {
       "name" : "PublishToGitRepo"
