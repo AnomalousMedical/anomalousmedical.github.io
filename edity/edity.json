@@ -8,5 +8,18 @@
       "type": "Html",
       "extension": ".html"
     }
+  ],
+  "preBuildTasks": [
+    {
+      "name": "GetPublishRepo",
+      "settings": {
+        "url": "https://github.com/AnomalousMedical/anomalousmedical.github.io.git"
+      }
+    }
+  ],
+  "postPublishTasks": [
+    {
+      "name" : "PublishToGitRepo"
+    }
   ]
 }
