@@ -1,90 +1,120 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome | Anomalous Medical</title>
-    <link rel="shortcut icon" href="/Images/icons/favico.ico" type="image/x-icon">
-    <link rel="icon" href="/Images/icons/favico.ico" type="image/ico">
-    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap-custom.css?linkver=20200119020059" type="text/css">
-<link rel="stylesheet" href="/lib/sidebar/css/simple-sidebar.css?linkver=20200119020059" type="text/css">
-<link rel="stylesheet" href="/lib/sidebar/css/sidemenu.css?linkver=20200119020059" type="text/css">
-<link rel="stylesheet" href="/lib/edity/css/layout.css?linkver=20200119020059" type="text/css">
-<link rel="stylesheet" href="/index.css?linkver=20200119020059" type="text/css">
-<link rel="stylesheet" href="/edity/layouts/default.css?linkver=20200119020059" type="text/css">
-
+    
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome | Anomalous Medical</title>
+        <link rel="shortcut icon" href="/Images/icons/favico.ico" type="image/x-icon">
+        <link rel="icon" href="/Images/icons/favico.ico" type="image/ico"><link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap-darkly.css?linkver=20210108063810" type="text/css">
+<link rel="stylesheet" href="/index.css?linkver=20210108063810" type="text/css">
+<link rel="stylesheet" href="/edity/layouts/default.css?linkver=20210108063810" type="text/css">
 </head>
-<body>
-    <nav class="navbar navbar-inverse">
-        <div class="container">
-            <div class="navbar-header">
-                <a href="/">
+    
+    <body>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+            <div class="container"> <a href="/">
+
                     <img alt="Anomalous Medical" src="/Files/AnomLogo.png">
+
                 </a>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>
+&#x2630;</button>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item"><a href="/" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item"><a href="/Download" class="nav-link">Download</a>
+                        </li>
+                        <li class="nav-item"><a href="/LearningCenter" class="nav-link">Learning Center</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/Download">Download</a></li>
-                    <li><a href="/LearningCenter">Learning Center</a></li>
-                </ul>
+        </nav>
+        <div class="pageContent">
+        <div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">&#xA0;</div>
+            <div class="col-md-8">
+                	<h1 class="text-center anom-jumbo-text">Explore the Human Body</h1>
+                <p class="text-center anom-jumbo-text">Available on Windows and Android.</p>
             </div>
         </div>
-    </nav>
-
-    <div class="jumbotron">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-2">&nbsp;</div>
-			<div class="col-md-8">
-				<h1 class="text-center anom-jumbo-text">Explore the Human Body</h1>
-				<p class="text-center anom-jumbo-text">Available on Windows and Android.</p></div></div>
-		<div class="row">
-			<div class="col-md-5">&nbsp;</div>
-			<div class="col-md-2">
-				<p class="text-center"><a class="btn btn-lg active btn-success" href="/Download" role="button">Download Now</a></p></div></div>
-		<div class="row">
-			<div class="carousel slide" data-ride="carousel" id="carousel-example-generic">
-				<div class="carousel-inner" role="listbox">
-					<div class="item active"><img src="/Files/Main/slide11.png"></div>
-					<div class="item"><img src="/Files/Main/slide8.png"></div>
-					<div class="item"><img src="/Files/Main/slide9.png"></div></div></div></div></div></div>
-<div class="container">
-	<div class="row">
-		<div class="col-md-4">
-			<div class="outerContainer center-block">
-				<div class="innerContainer"><img src="/Files/Main/explore.png"></div></div>&nbsp;
-			<h2 class="text-center">EXPLORE</h2>
-			<p>Navigate the human skeletal system and view detailed head anatomy. Anomalous Medical also features an accurate simulation of the movement of the mandible.</p></div>
-		<div class="col-md-4">
-			<div class="outerContainer center-block">
-				<div class="innerContainer"><img src="/Files/Main/authoring-tools.png"></div></div>&nbsp;
-			<h2 class="text-center">CREATE</h2>
-			<p>Create animations by combining your materials and expertise with our interactive 3D anatomy using the Authoring Tools.</p></div>
-		<div class="col-md-4">
-			<div class="outerContainer center-block">
-				<div class="innerContainer"><img src="/Files/Main/share1.png"></div></div>&nbsp;
-			<h2 class="text-center">LEARN</h2>
-			<p>Visit our <a href="/LearningCenter">learning center</a> for more tutorials. These guides will help you learn how to navigate the software and create content.</p></div></div>
-	<hr class="featurette-divider">
-	<h2>Open Source</h2>
-	<p>Anomalous Medical is <a href="https://github.com/anomalousmedical">open source software</a>. You can freely download and change its code to suit your needs. You may distribute derived works of the source code, but the artwork is not licensed for distribution.&nbsp;You must link back to this project in order for people to get the artwork to go with your customized version.&nbsp;In addition all Anomalous Medical logos, icons and other artwork&nbsp;are Copyright 2020 Threax Software, LLC. All Rights&nbsp;Reserved. These items also cannot be distributed in derived works.</p></div>
-
-    <div class="container">
-        <hr>
-        Copyright 2020 Threax Software, LLC
+        <div class="row">
+            <p class="text-center mx-auto"><a class="btn btn-lg active btn-success" href="/Download" role="button">Download Now</a>
+            </p>
+        </div>
+        <div class="row">
+            <div class="carousel slide mx-auto" data-ride="carousel" id="carousel-example-generic">
+                <div class="carousel-inner">
+                    <div class="active carousel-item">
+                        <img src="/Files/Main/slide11.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Files/Main/slide8.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Files/Main/slide9.png">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <script type="text/javascript" src="/lib/polyfill.js?linkver=20200119020059"></script>
-<script type="text/javascript" src="/lib/tslib.js?linkver=20200119020059"></script>
-<script type="text/javascript" src="/lib/jquery/dist/jquery.min.js?linkver=20200119020059"></script>
-<script type="text/javascript" src="/lib/bootstrap/dist/js/bootstrap.min.js?linkver=20200119020059"></script>
-<script type="text/javascript" src="/lib/tsbin.prod.js?linkver=20200119020059"></script>
-<script type="text/javascript" src="/lib/hr-run.js?linkver=20200119020059"></script>
-
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="outerContainer mx-auto">
+                <div class="innerContainer">
+                    <img src="/Files/Main/explore.png">
+                </div>
+            </div>&#xA0;
+            	<h2 class="text-center">EXPLORE</h2>
+            <p>Navigate the human skeletal system and view detailed head anatomy. Anomalous
+                Medical also features an accurate simulation of the movement of the mandible.</p>
+        </div>
+        <div class="col-md-4">
+            <div class="outerContainer mx-auto">
+                <div class="innerContainer">
+                    <img src="/Files/Main/authoring-tools.png">
+                </div>
+            </div>&#xA0;
+            	<h2 class="text-center">CREATE</h2>
+            <p>Create animations by combining your materials and expertise with our interactive
+                3D anatomy using the Authoring Tools.</p>
+        </div>
+        <div class="col-md-4">
+            <div class="outerContainer mx-auto">
+                <div class="innerContainer">
+                    <img src="/Files/Main/share1.png">
+                </div>
+            </div>&#xA0;
+            	<h2 class="text-center">LEARN</h2>
+            <p>Visit our <a href="/LearningCenter">learning center</a> for more tutorials.
+                These guides will help you learn how to navigate the software and create
+                content.</p>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+    	<h2>Open Source</h2>
+    <p>Anomalous Medical is <a href="https://github.com/anomalousmedical">open source software</a>.
+        You can freely download and change its code to suit your needs. You may
+        distribute derived works of the source code, but the artwork is not licensed
+        for distribution.&#xA0;You must link back to this project in order for
+        people to get the artwork to go with your customized version.&#xA0;In addition
+        all Anomalous Medical logos, icons and other artwork&#xA0;are Copyright
+        2020 Threax Software, LLC. All Rights&#xA0;Reserved. These items also cannot
+        be distributed in derived works.</p>
+</div>
+        </div>
+        <div class="container">
+            <hr>Copyright 2020 Threax Software, LLC</div><script type="text/javascript" src="/lib/tslib.js?linkver=20210108063810"></script>
+<script type="text/javascript" src="/lib/jquery/dist/jquery.min.js?linkver=20210108063810"></script>
+<script type="text/javascript" src="/lib/popper.js/dist/popper.min.js?linkver=20210108063810"></script>
+<script type="text/javascript" src="/lib/bootstrap/dist/js/bootstrap.min.js?linkver=20210108063810"></script>
+<script type="text/javascript" src="/lib/tsbin.prod.js?linkver=20210108063810"></script>
+<script type="text/javascript" src="/lib/hr-run.js?linkver=20210108063810"></script>
 </body>
+
 </html>
