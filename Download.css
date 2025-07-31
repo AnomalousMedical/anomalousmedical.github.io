@@ -1,0 +1,27 @@
+.embed-steam {
+  padding-top: 65%;
+}
+
+@media(min-width: 576px) {
+  .embed-steam {
+    padding-top: 45%;
+  }
+}
+
+@media(min-width: 768px) {
+  .embed-steam {
+    padding-top: 35%;
+  }
+}
+
+@media(min-width: 992px) {
+  .embed-steam {
+    padding-top: 25%;
+  }
+}
+
+@media(min-width: 1200px) {
+  .embed-steam {
+    padding-top: 20%;
+  }
+}
